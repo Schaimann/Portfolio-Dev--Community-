@@ -1,0 +1,38 @@
+.projects{
+    background-color: var(--gray-200);
+}
+.header-main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 72px;
+    h3{
+        color: var(--red);
+        font: var(--subtitle);
+    }
+    h2{
+        color: var(--gray-600);
+        font: var(--text-md);
+        padding-bottom: 56px;
+    }
+}
+.grid-container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2 auto);
+    gap: 24px;
+}
+.ProjectCard{
+    background-color: var(--gray-300);
+    overflow: hidden;
+    border-radius: 12px;
+    width: 330px;
+    height: 280px;
+}
+.ProjectCard img{
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    border-radius: 20px;
+}
